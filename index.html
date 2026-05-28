@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandMi | Soluciones Visuales Impactantes</title>
+    <meta name="description"
+        content="Hola, soy Mily. Ayudo a emprendedores y empresas a potenciar su negocio con estrategias efectivas y gestión de redes sociales.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Menú Superior y Botón Dark Mode -->
+    <nav class="navbar">
+        <!-- Reemplaza el src con la ruta real de tu logo -->
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#portfolio">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar modo oscuro">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- Sección 1: Hero / Inicio -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Transformo ideas en soluciones visuales impactantes.</h1>
+            <p>Hola, soy Mily. Ayudo a emprendedores y empresas a potenciar su negocio con estrategias efectivas.</p>
+            <a href="#servicios" class="btn btn-primary">Ver mis servicios</a>
+        </div>
+        <div class="hero-visual">
+            <div class="abstract-shape"></div>
+            <!-- Elemento visual decorativo asimétrico -->
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección 2: Servicios Principales -->
+        <section id="servicios" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Servicios Principales</h2>
+                    <p>Todo lo que necesitas para destacar tu marca en el mundo digital.</p>
+                </div>
+                <div class="grid services-grid">
+                    <div class="card service-card">
+                        <i class="fa-solid fa-mobile-screen-button icon"></i>
+                        <h3>Gestión de Redes Sociales</h3>
+                        <p>Estrategia, planificación y diseño adaptado a cada plataforma para conectar con tu audiencia.
+                        </p>
+                    </div>
+                    <div class="card service-card">
+                        <i class="fa-solid fa-palette icon"></i>
+                        <h3>Diseño de Identidad de Marca</h3>
+                        <p>Creación de logo, paleta de colores y elementos gráficos que transmitan tu esencia.</p>
+                    </div>
+                    <div class="card service-card">
+                        <i class="fa-solid fa-camera icon"></i>
+                        <h3>Creación de Contenido</h3>
+                        <p>Cobertura de eventos y publicidad estratégica en Meta Ads.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3: Planes de Gestión -->
+        <section id="planes" class="section plans bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Planes de Gestión</h2>
+                    <p class="highlight-text">Todos los planes incluyen: Estrategia, diseño de feed/historias, enfoque
+                        en engagement y 1 sesión de fotos mensual.</p>
+                </div>
+                <div class="grid plans-grid">
+                    <div class="card plan-card">
+                        <h3>Pack Básico</h3>
+                        <p class="plan-desc">Ideal para mantener presencia.</p>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Instagram</li>
+                            <li><i class="fa-solid fa-check"></i> 3 posts semanales</li>
+                            <li><i class="fa-solid fa-check"></i> Historias estratégicas</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline">Consultar</a>
+                    </div>
+                    <div class="card plan-card featured">
+                        <div class="badge">Recomendado</div>
+                        <h3>Pack Intermedio</h3>
+                        <p class="plan-desc">Perfecto para crecer y destacar.</p>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Instagram y Facebook</li>
+                            <li><i class="fa-solid fa-check"></i> 5 posts semanales</li>
+                            <li><i class="fa-solid fa-check"></i> 1 Reel semanal</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                    <div class="card plan-card">
+                        <h3>Pack Full</h3>
+                        <p class="plan-desc">Máxima exposición y crecimiento.</p>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Instagram y Facebook</li>
+                            <li><i class="fa-solid fa-check"></i> 7 posts semanales</li>
+                            <li><i class="fa-solid fa-check"></i> Historias diarias</li>
+                            <li><i class="fa-solid fa-check"></i> 2 Reels semanales</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline">Consultar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4: Proyectos Destacados (Portfolio) -->
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Proyectos Destacados</h2>
+                    <p>Casos de éxito de marcas que confiaron en mi visión.</p>
+                </div>
+                <div class="grid portfolio-grid">
+                    <a href="https://www.instagram.com/estanciaesther/" target="_blank" rel="noopener noreferrer"
+                        class="portfolio-item">
+                        <img src="images/cliente-esther.webp" alt="Estancia Esther" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Estancia Esther</h3>
+                            <span class="tag">Yerba Orgánica</span>
+                            <p>Cambio de packaging, branding completo y cobertura de eventos.</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/laalemanna.ok/" target="_blank" rel="noopener noreferrer"
+                        class="portfolio-item">
+                        <img src="images/cliente-alemana.webp" alt="La Alemana" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>La Alemana</h3>
+                            <span class="tag">Impresiones 3D</span>
+                            <p>Branding completo y posicionamiento visual estratégico.</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/esteticafreyjasecrets/" target="_blank" rel="noopener noreferrer"
+                        class="portfolio-item">
+                        <img src="images/cliente-freyja.webp" alt="Freyja Secrets" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Freyja Secrets</h3>
+                            <span class="tag">Estética</span>
+                            <p>Estética visual enfocada en tonos rosas y difusión de tratamientos.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 5: Testimonios -->
+        <section id="testimonios" class="section testimonials bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Lo que dicen mis clientes</h2>
+                </div>
+                <div class="carousel-container">
+                    <div class="testimonials-wrapper">
+                        <div class="testimonials-track">
+                            <div class="card testimonial-card">
+                                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>"Necesitábamos que nuestra marca se viera más elegante y profesional, sin perder su
+                                    esencia.
+                                    Milagros entendió todo a la perfección: modernizó nuestro logo manteniendo el
+                                    espíritu de
+                                    Frida Love. Muy recomendada."</p>
+                                <div class="client-info">
+                                    <h4>Noelia Villarreal</h4>
+                                    <span>Fundadora, Frida Love Esencias</span>
+                                </div>
+                            </div>
+                            <div class="card testimonial-card">
+                                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>"Milagros logró captar la tradición de Estancia Esther y llevarla a un nivel
+                                    profesional.
+                                    Pasamos de un diseño casero a una identidad visual que realmente nos representa.
+                                    ¡Estamos
+                                    felices con la nueva cara de la marca!"</p>
+                                <div class="client-info">
+                                    <h4>Daniel Arias</h4>
+                                    <span>Dueño, Estancia Esther</span>
+                                </div>
+                            </div>
+                            <div class="card testimonial-card">
+                                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>"Las fotos y el contenido que crea Milagros hacen que nuestros productos se vean
+                                    irresistibles. Desde que maneja nuestras redes, el feed tiene mucha más onda y
+                                    profesionalismo. ¡Una genia captando el espíritu de la comida al paso!"</p>
+                                <div class="client-info">
+                                    <h4>Javier Smargiassi</h4>
+                                    <span>Dueño, Delicious Street</span>
+                                </div>
+                            </div>
+                            <div class="card testimonial-card">
+                                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>"Milagros le aportó orden y frescura a la comunicación del instituto. Logró
+                                    transmitir
+                                    nuestra calidad educativa en las redes con diseños prolijos y claros. Es muy fácil
+                                    trabajar
+                                    con ella y entiende perfecto lo que necesitamos comunicar a la comunidad."</p>
+                                <div class="client-info">
+                                    <h4>Gisela Massa</h4>
+                                    <span>Directora y Fundadora, Britania School Of English</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <!-- Dots generados por JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 6: Contacto -->
+        <section id="contacto" class="section contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-content">
+                        <h2>¿Listo para brandear tu marca?</h2>
+                        <p>Hablemos de tu próximo proyecto. Estoy disponible para potenciar tu negocio y llevarlo al
+                            siguiente nivel.</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="https://instagram.com/brandmi.ok" target="_blank" class="contact-item">
+                            <div class="icon-circle"><i class="fa-brands fa-instagram"></i></div>
+                            <div>
+                                <span class="label">Instagram</span>
+                                <span class="value">@brandmi.ok</span>
+                            </div>
+                        </a>
+                        <a href="mailto:benitez.solucionesintegrales@gmail.com" class="contact-item">
+                            <div class="icon-circle"><i class="fa-regular fa-envelope"></i></div>
+                            <div>
+                                <span class="label">Email</span>
+                                <span class="value">benitez.solucionesintegrales@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/5493462592905" target="_blank" class="contact-item">
+                            <div class="icon-circle"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <span class="label">WhatsApp</span>
+                                <span class="value">3462 - 592905</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mily - Brand & Community Manager. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script de Dark Mode -->
+    <script>
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const themeIcon = themeToggleBtn.querySelector('i');
+
+        // Check if user previously saved a theme preference
+        const savedTheme = localStorage.getItem('brandmi-theme');
+        // Check system preference
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+        // Function to set theme
+        const setTheme = (isDark) => {
+            if (isDark) {
+                document.body.classList.add('dark-theme');
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                document.body.classList.remove('dark-theme');
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        };
+
+        // Initialize Theme
+        if (savedTheme) {
+            setTheme(savedTheme === 'dark');
+        } else {
+            setTheme(prefersDarkScheme.matches);
+        }
+
+        // Toggle Event
+        themeToggleBtn.addEventListener('click', () => {
+            const isDarkModeNow = document.body.classList.contains('dark-theme');
+            setTheme(!isDarkModeNow);
+            localStorage.setItem('brandmi-theme', !isDarkModeNow ? 'dark' : 'light');
+        });
+    </script>
+
+    <!-- Script de Carousel -->
+    <script>
+        const track = document.querySelector('.testimonials-track');
+        const cards = Array.from(track.children);
+        const dotsContainer = document.querySelector('.carousel-indicators');
+        const container = document.querySelector('.carousel-container');
+
+        let currentIndex = 0;
+        let autoPlayInterval;
+        let isHovered = false; // Variable de control para saber si el mouse está encima
+
+        // Crear puntos (dots) de acuerdo a la cantidad de tarjetas
+        cards.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
+            dotsContainer.appendChild(dot);
+        });
+
+        const dots = Array.from(dotsContainer.children);
+
+        function updateCarousel() {
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach(dot => dot.classList.remove('active'));
+            dots[currentIndex].classList.add('active');
+        }
+
+        function goToSlide(index) {
+            currentIndex = index;
+            updateCarousel();
+            resetInterval(); // Reinicia el contador si el usuario hace clic manual
+        }
+
+        function nextSlide() {
+            // Solo avanza a la siguiente tarjeta si NO tenemos el mouse encima
+            if (!isHovered) {
+                currentIndex = (currentIndex + 1) % cards.length;
+                updateCarousel();
+            }
+        }
+
+        function startInterval() {
+            // 8000 milisegundos = 8 segundos. Tiempo ideal para lectura.
+            autoPlayInterval = setInterval(nextSlide, 8000);
+        }
+
+        function resetInterval() {
+            clearInterval(autoPlayInterval);
+            startInterval();
+        }
+
+        // Lógica de Pausa (Mouse en PC)
+        container.addEventListener('mouseenter', () => {
+            isHovered = true;
+        });
+
+        container.addEventListener('mouseleave', () => {
+            isHovered = false;
+            resetInterval(); // Reinicia el reloj limpio al salir
+        });
+
+        // Lógica de Pausa (Táctil en Celulares)
+        container.addEventListener('touchstart', () => {
+            isHovered = true;
+        }, { passive: true });
+
+        container.addEventListener('touchend', () => {
+            isHovered = false;
+            resetInterval();
+        }, { passive: true });
+
+        // Iniciar el carrusel
+        startInterval();
+
+        // Lógica del Menú Hamburguesa
+        const hamburgerBtn = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const hamburgerIcon = hamburgerBtn.querySelector('i');
+
+        hamburgerBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            if (navLinks.classList.contains('nav-active')) {
+                hamburgerIcon.classList.remove('fa-bars');
+                hamburgerIcon.classList.add('fa-xmark');
+            } else {
+                hamburgerIcon.classList.remove('fa-xmark');
+                hamburgerIcon.classList.add('fa-bars');
+            }
+        });
+
+        // Cerrar el menú al hacer clic en un enlace
+        const navItems = document.querySelectorAll('.nav-links a');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                if (navLinks.classList.contains('nav-active')) {
+                    navLinks.classList.remove('nav-active');
+                    hamburgerIcon.classList.remove('fa-xmark');
+                    hamburgerIcon.classList.add('fa-bars');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
